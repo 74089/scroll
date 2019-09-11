@@ -4,25 +4,25 @@ function test() {
 
 function button1() {
   var elmnt = document.getElementById("red");
-  elmnt.scrollIntoView();
+  elmnt.scrollIntoView({ block: 'end',  behavior: 'smooth' });
 }
 function button2() {
   var elmnt = document.getElementById("orange");
-  elmnt.scrollIntoView();
+  elmnt.scrollIntoView({ block: 'end',  behavior: 'smooth' });
 }
 function button3() {
   var elmnt = document.getElementById("yellow");
-  elmnt.scrollIntoView();
+  elmnt.scrollIntoView({ block: 'end',  behavior: 'smooth' });
 }
 function button4() {
   var elmnt = document.getElementById("green");
-  elmnt.scrollIntoView();
+  elmnt.scrollIntoView({ block: 'end',  behavior: 'smooth' });
 }
 function button5() {
   var elmnt = document.getElementById("blue");
-  elmnt.scrollIntoView();
+  elmnt.scrollIntoView({ block: 'end',  behavior: 'smooth' });
 }
 function button6() {
   var elmnt = document.getElementById("purple");
-  elmnt.scrollIntoView();
+  elmnt.scrollIntoView({ block: 'end',  behavior: 'smooth' });
 }
