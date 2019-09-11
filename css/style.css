@@ -2,32 +2,32 @@ body{
   background-color: lightblue;
 }
 .div1{
-  height: 100vh;
+  height: 50vh;
   width: auto;
   background-color: red;
 }
 .div2{
-  height: 100vh;
+  height: 50vh;
   width: auto;
   background-color: orange;
 }
 .div3{
-  height: 100vh;
+  height: 50vh;
   width: auto;
   background-color: yellow;
 }
 .div4{
-  height: 100vh;
+  height: 50vh;
   width: auto;
   background-color: green;
 }
 .div5{
-  height: 100vh;
+  height: 50vh;
   width: auto;
   background-color: blue;
 }
 .div6{
-  height: 100vh;
+  height: 50vh;
   width: auto;
   background-color: purple;
 }
