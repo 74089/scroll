@@ -10,6 +10,9 @@ function button2() {
   var elmnt = document.getElementById("orange");
   elmnt.scrollIntoView({ block: 'end',  behavior: 'smooth' });
 }
+function button22() {
+  document.querySelector("#orange").scrollIntoView({ block: 'end',  behavior: 'smooth' });
+}
 function button3() {
   var elmnt = document.getElementById("yellow");
   elmnt.scrollIntoView({ block: 'end',  behavior: 'smooth' });
@@ -25,4 +28,9 @@ function button5() {
 function button6() {
   var elmnt = document.getElementById("purple");
   elmnt.scrollIntoView({ block: 'end',  behavior: 'smooth' });
+}
+
+function myFunction(parameter) {
+  var x = parameter;
+  document.getElementById(x).scrollIntoView({ block: 'end',  behavior: 'smooth' });
 }
